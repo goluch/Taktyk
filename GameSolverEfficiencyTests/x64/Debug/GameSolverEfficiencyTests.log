@@ -1,4 +1,4 @@
-﻿Build started 2014-06-16 16:43:19.
+﻿Build started 2014-06-16 17:26:47.
      1>Project "C:\cygwin64\home\goluch\Taktyk\GameSolverEfficiencyTests\GameSolverEfficiencyTests.vcxproj" on node 2 (Build target(s)).
      1>Link:
          GameSolverEfficiencyTests.vcxproj -> C:\cygwin64\home\goluch\Taktyk\x64\Debug\GameSolverEfficiencyTests.exe
@@ -6,4 +6,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.81
+Time Elapsed 00:00:00.10
