@@ -1,0 +1,15 @@
+﻿Build started 2014-06-16 17:01:40.
+     1>Project "C:\cygwin64\home\goluch\Taktyk\GameSolverEfficiencyTests\GameSolverEfficiencyTests.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin64\home\goluch\Taktyk\x64\Release\GameSolverEfficiencyTests.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cygwin64\home\goluch\Taktyk\x64\Release\GameSolverEfficiencyTests.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cygwin64\home\goluch\Taktyk\x64\Release\GameSolverEfficiencyTests.lib" /MACHINE:X64 x64\Release\GameSolverEfficiencyTests.obj
+         C:\cygwin64\home\goluch\Taktyk\x64\Release\gameDataStructures.lib
+         C:\cygwin64\home\goluch\Taktyk\x64\Release\gameEngines.lib
+         C:\cygwin64\home\goluch\Taktyk\x64\Release\gameSolver.lib
+         Generating code
+         Finished generating code
+         GameSolverEfficiencyTests.vcxproj -> C:\cygwin64\home\goluch\Taktyk\x64\Release\GameSolverEfficiencyTests.exe
+     1>Done Building Project "C:\cygwin64\home\goluch\Taktyk\GameSolverEfficiencyTests\GameSolverEfficiencyTests.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54

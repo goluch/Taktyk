@@ -1,0 +1,17 @@
+﻿Build started 2014-06-16 17:01:39.
+     1>Project "C:\cygwin64\home\goluch\Taktyk\gameDataStructures\gameDataStructures.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Node.cpp PNSNode.cpp PNSNodeWithOutPointers.cpp
+         Node.cpp
+         PNSNode.cpp
+         PNSNodeWithOutPointers.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\cygwin64\home\goluch\Taktyk\x64\Release\gameDataStructures.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\Node.obj
+         x64\Release\PNSNode.obj
+         x64\Release\PNSNodeWithOutPointers.obj
+         gameDataStructures.vcxproj -> C:\cygwin64\home\goluch\Taktyk\x64\Release\gameDataStructures.lib
+     1>Done Building Project "C:\cygwin64\home\goluch\Taktyk\gameDataStructures\gameDataStructures.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21
