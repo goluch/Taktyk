@@ -1,0 +1,128 @@
+﻿Build started 2014-06-16 16:17:51.
+     1>Project "C:\cygwin64\home\goluch\Taktyk\gameSolver\gameSolver.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt exceptions.cpp PerformanceCounter.cpp ProofNumberSearch.cpp ProofNumberSearchWrapped.cpp
+         ProofNumberSearchWrapped.cpp
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(21): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<N>::ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(28): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<N>::~ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(34): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(41): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::~ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(47): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::PNSNode' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(53): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::~PNSNode' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(59): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::PNSNode' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(70): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::PNSNodeWithoutPointers' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(76): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::~PNSNodeWithoutPointers' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(82): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::PNSNodeWithoutPointers' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(21): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearchWrapped<N>::ProofNumberSearchWrapped' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(28): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearchWrapped<N>::~ProofNumberSearchWrapped' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(34): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearchWrapped<gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>>::ProofNumberSearchWrapped' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(41): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearchWrapped<gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>>::~ProofNumberSearchWrapped' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnodewithoutpointers.cpp(59): warning C4244: '=' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+                 c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnodewithoutpointers.cpp(53) : while compiling class template member function 'void gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::Initialize(void)'
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(36) : see reference to function template instantiation 'void gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::Initialize(void)' being compiled
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(70) : see reference to class template instantiation 'gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>' being compiled
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(21): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<N>::ProofNumberSearch' instead
+                 with
+                 [
+                     N=gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(22) : while compiling class template member function 'gameSolver::ProofNumberSearch<N>::ProofNumberSearch(void)'
+                 with
+                 [
+                     N=gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(35) : see reference to function template instantiation 'gameSolver::ProofNumberSearch<N>::ProofNumberSearch(void)' being compiled
+                 with
+                 [
+                     N=gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.h(9) : see reference to class template instantiation 'gameSolver::ProofNumberSearch<N>' being compiled
+                 with
+                 [
+                     N=gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(34) : see reference to class template instantiation 'gameSolver::ProofNumberSearchWrapped<gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>>' being compiled
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(28): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<N>::~ProofNumberSearch' instead
+                 with
+                 [
+                     N=gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(29) : while compiling class template member function 'gameSolver::ProofNumberSearch<N>::~ProofNumberSearch(void)'
+                 with
+                 [
+                     N=gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearchwrapped.cpp(35) : see reference to function template instantiation 'gameSolver::ProofNumberSearch<N>::~ProofNumberSearch(void)' being compiled
+                 with
+                 [
+                     N=gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>
+                 ]
+     1>c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnode.cpp(42): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+                 c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnode.cpp(38) : while compiling class template member function 'int gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::GenerateAllChildren(bool,gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *)'
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(233) : see reference to function template instantiation 'int gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::GenerateAllChildren(bool,gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *)' being compiled
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(202) : while compiling class template member function 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::SelectMostProving(N *)'
+                 with
+                 [
+                     N=gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(331) : see reference to function template instantiation 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::SelectMostProving(N *)' being compiled
+                 with
+                 [
+                     N=gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(34) : see reference to class template instantiation 'gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>' being compiled
+     1>c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnode.cpp(50): warning C4244: 'return' : conversion from 'unsigned __int64' to 'int', possible loss of data
+         ProofNumberSearch.cpp
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(21): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<N>::ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(28): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<N>::~ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(34): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(41): warning C4812: obsolete declaration style: please use 'gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::~ProofNumberSearch' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(47): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::PNSNode' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(53): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::~PNSNode' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(59): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::PNSNode' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(70): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::PNSNodeWithoutPointers' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(76): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::~PNSNodeWithoutPointers' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(82): warning C4812: obsolete declaration style: please use 'gameDataStructures::PNSNodeWithoutPointers<gameEngines::CaptureGoEngine,unsigned int,unsigned int>::PNSNodeWithoutPointers' instead
+     1>c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnode.cpp(42): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+                 c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnode.cpp(38) : while compiling class template member function 'int gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::GenerateAllChildren(bool,gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *)'
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(233) : see reference to function template instantiation 'int gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>::GenerateAllChildren(bool,gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *)' being compiled
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(202) : while compiling class template member function 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::SelectMostProving(N *)'
+                 with
+                 [
+                     N=gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(331) : see reference to function template instantiation 'gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int> *gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>::SelectMostProving(N *)' being compiled
+                 with
+                 [
+                     N=gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>
+                 ]
+                 c:\cygwin64\home\goluch\taktyk\gamesolver\proofnumbersearch.cpp(34) : see reference to class template instantiation 'gameSolver::ProofNumberSearch<gameDataStructures::PNSNode<gameEngines::CaptureGoEngine,unsigned int>>' being compiled
+     1>c:\cygwin64\home\goluch\taktyk\gamedatastructures\pnsnode.cpp(50): warning C4244: 'return' : conversion from 'unsigned __int64' to 'int', possible loss of data
+         PerformanceCounter.cpp
+         exceptions.cpp
+     1>c:\cygwin64\home\goluch\taktyk\gamesolver\exceptions.cpp(4): warning C4273: 'std::exception::what' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(98) : see previous definition of 'what'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\cygwin64\home\goluch\Taktyk\Debug\gameSolver.lib" /NOLOGO Debug\exceptions.obj
+         Debug\PerformanceCounter.obj
+         Debug\ProofNumberSearch.obj
+         Debug\ProofNumberSearchWrapped.obj
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int>::PNSNode<class gameEngines::CaptureGoEngine,unsigned int>(class gameEngines::CaptureGoEngine,struct gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int> *)" (??0?$PNSNode@VCaptureGoEngine@gameEngines@@I@gameDataStructures@@QAE@VCaptureGoEngine@gameEngines@@PAU01@@Z) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int>::PNSNode<class gameEngines::CaptureGoEngine,unsigned int>(void)" (??0?$PNSNode@VCaptureGoEngine@gameEngines@@I@gameDataStructures@@QAE@XZ) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameDataStructures::PNSNodeWithoutPointers<class gameEngines::CaptureGoEngine,unsigned int,unsigned int>::PNSNodeWithoutPointers<class gameEngines::CaptureGoEngine,unsigned int,unsigned int>(class gameEngines::CaptureGoEngine,unsigned int)" (??0?$PNSNodeWithoutPointers@VCaptureGoEngine@gameEngines@@II@gameDataStructures@@QAE@VCaptureGoEngine@gameEngines@@I@Z) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameDataStructures::PNSNodeWithoutPointers<class gameEngines::CaptureGoEngine,unsigned int,unsigned int>::PNSNodeWithoutPointers<class gameEngines::CaptureGoEngine,unsigned int,unsigned int>(void)" (??0?$PNSNodeWithoutPointers@VCaptureGoEngine@gameEngines@@II@gameDataStructures@@QAE@XZ) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameSolver::ProofNumberSearch<struct gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int> >::ProofNumberSearch<struct gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int> >(void)" (??0?$ProofNumberSearch@U?$PNSNode@VCaptureGoEngine@gameEngines@@I@gameDataStructures@@@gameSolver@@QAE@XZ) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int>::~PNSNode<class gameEngines::CaptureGoEngine,unsigned int>(void)" (??1?$PNSNode@VCaptureGoEngine@gameEngines@@I@gameDataStructures@@QAE@XZ) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameDataStructures::PNSNodeWithoutPointers<class gameEngines::CaptureGoEngine,unsigned int,unsigned int>::~PNSNodeWithoutPointers<class gameEngines::CaptureGoEngine,unsigned int,unsigned int>(void)" (??1?$PNSNodeWithoutPointers@VCaptureGoEngine@gameEngines@@II@gameDataStructures@@QAE@XZ) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: __thiscall gameSolver::ProofNumberSearch<struct gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int> >::~ProofNumberSearch<struct gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int> >(void)" (??1?$ProofNumberSearch@U?$PNSNode@VCaptureGoEngine@gameEngines@@I@gameDataStructures@@@gameSolver@@QAE@XZ) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "public: bool __thiscall gameSolver::ProofNumberSearch<struct gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int> >::Solve(struct gameDataStructures::PNSNode<class gameEngines::CaptureGoEngine,unsigned int>,bool,bool,class PerformanceCounter *)" (?Solve@?$ProofNumberSearch@U?$PNSNode@VCaptureGoEngine@gameEngines@@I@gameDataStructures@@@gameSolver@@QAE_NU?$PNSNode@VCaptureGoEngine@gameEngines@@I@gameDataStructures@@_N1PAVPerformanceCounter@@@Z) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "long start" (?start@@3JA) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4006: "long end" (?end@@3JA) already defined in ProofNumberSearchWrapped.obj; second definition ignored
+     1>ProofNumberSearch.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         gameSolver.vcxproj -> C:\cygwin64\home\goluch\Taktyk\Debug\gameSolver.lib
+     1>Done Building Project "C:\cygwin64\home\goluch\Taktyk\gameSolver\gameSolver.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.89
